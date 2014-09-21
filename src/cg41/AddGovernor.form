@@ -1,0 +1,224 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" resourceKey="Form.title"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Add a Governor">
+              <Property name="titleX" resourceKey="jPanel1.border.title"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jPanel1" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="elecDateLbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="frstNamLbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lstNamLbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="endDateLbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="clrFldsBtn" max="32767" attributes="1"/>
+                          <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                          <Component id="addGovBtn" min="-2" max="-2" attributes="1"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="exitBtn" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="endDateChooser" alignment="0" min="-2" pref="149" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="frstNamFld" min="-2" pref="137" max="-2" attributes="1"/>
+                          <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                          <Component id="govIdLbl" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="govIdOutLbl" pref="60" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="lstNamFld" min="-2" pref="185" max="-2" attributes="1"/>
+                      <Component id="elecDateChooser" alignment="0" min="-2" pref="149" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                          <Component id="frstNamLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="frstNamFld" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="govIdLbl" alignment="3" min="-2" pref="17" max="-2" attributes="0"/>
+                              <Component id="govIdOutLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lstNamLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lstNamFld" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="elecDateLbl" min="-2" max="-2" attributes="0"/>
+                      <Component id="elecDateChooser" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="endDateLbl" min="-2" max="-2" attributes="0"/>
+                      <Component id="endDateChooser" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="exitBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="addGovBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="clrFldsBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="govIdOutLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="govIdOutLbl.text"/>
+            <Property name="name" type="java.lang.String" value="govIdOutLbl" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="endDateLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="endDateLbl.text"/>
+            <Property name="name" type="java.lang.String" value="endDateLbl" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="clrFldsBtn">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="clrFldsBtn.text"/>
+            <Property name="name" type="java.lang.String" value="clrFldsBtn" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clrFldsBtnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="endDateChooser">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="endDateChooser" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lstNamLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="lstNamLbl.text"/>
+            <Property name="name" type="java.lang.String" value="lstNamLbl" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="frstNamLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="frstNamLbl.text"/>
+            <Property name="name" type="java.lang.String" value="frstNamLbl" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="elecDateChooser">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="elecDateChooser" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="addGovBtn">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="addGovBtn.text"/>
+            <Property name="name" type="java.lang.String" value="addGovBtn" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addGovBtnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="govIdLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="govIdLbl.text"/>
+            <Property name="name" type="java.lang.String" value="govIdLbl" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="lstNamFld">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="lstNamFld.text"/>
+            <Property name="name" type="java.lang.String" value="lstNamFld" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="frstNamFld">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="frstNamFld.text"/>
+            <Property name="name" type="java.lang.String" value="frstNamFld" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="elecDateLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="elecDateLbl.text"/>
+            <Property name="name" type="java.lang.String" value="elecDateLbl" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="exitBtn">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="exitBtn.text"/>
+            <Property name="name" type="java.lang.String" value="exitBtn" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="exitBtnActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
